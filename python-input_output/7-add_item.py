@@ -23,6 +23,5 @@ my_list = []
     
 
 my_list.extend(sys.argv[1:])
-print(my_list)  # Debugging print
 
 save_to_json_file.save_to_json_file(my_list, filename)
