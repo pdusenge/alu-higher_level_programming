@@ -23,7 +23,7 @@ load_from_json_file = load_module('load_from_json_file', load_from_json_file_pat
 
 my_list = []
 my_list.extend(sys.argv[1:])
-# print(my_list)
+print()
 save_to_json_file.save_to_json_file(my_list, filename)
 
 
