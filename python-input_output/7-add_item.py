@@ -25,8 +25,11 @@ if exists(filename):
 
 else:
     my_list = []
+
+# Extend the list with command-line arguments
 my_list.extend(sys.argv[1:])
+
+# Save the updated list back to the JSON file
 save_to_json_file.save_to_json_file(my_list, filename)
-print(my_list)
 
 
