@@ -26,7 +26,7 @@ else:
     my_list = []
 
 my_list.extend(sys.argv[1:])
-print(muy_list)
+print(my_list)
 save_to_json_file.save_to_json_file(my_list, filename)
 
 
