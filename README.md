@@ -1,1 +1,1 @@
-# alu-higher_level_programming
+The starting of the Python and databases
